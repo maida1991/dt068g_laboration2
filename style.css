@@ -1,0 +1,100 @@
+:root {
+  color-scheme: light;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  color: #172d29;
+  background: #f5f8f5;
+  font-size: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+main {
+  max-inline-size: 68rem;
+  margin-inline: auto;
+  padding: clamp(1rem, 4vw, 3rem);
+}
+
+article {
+  max-inline-size: 65ch;
+  margin-inline: auto;
+}
+
+header,
+section,
+figure {
+  margin-block: 0 2rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin-block: 0 0.65em;
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  font-size: clamp(2rem, 1.5rem + 3vw, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p,
+ul {
+  margin-block: 0 1em;
+}
+
+ul {
+  padding-inline-start: 1.5em;
+}
+
+.ingress {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: 0.5rem;
+  margin-block-end: 1.5rem;
+}
+
+figure {
+  margin-inline: 0;
+}
+
+blockquote {
+  margin: 1.25rem 0 0.5rem;
+  padding: 1rem;
+  border-inline-start: 0.25rem solid #286256;
+  background: #e4efe9;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+figcaption {
+  font-weight: 600;
+}
+
+:focus-visible {
+  outline: 0.1875rem solid #286256;
+  outline-offset: 0.2rem;
+}
